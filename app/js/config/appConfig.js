@@ -1,6 +1,6 @@
 
 var leagueName = "squash";
-var apiUrl = "http://api.chess-rating.vegarm.svc.tutum.io:3000/" + leagueName;
+var apiUrl = "http://ifisquash-backend.herokuapp.com/" + leagueName;
 
 module.exports = {
     apiUrl : apiUrl
