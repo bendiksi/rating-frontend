@@ -8,12 +8,18 @@ export default class GamesList extends React.Component {
         super();
     }
 
+    showRecentGamesFirst(gameNodes) {
+        gameNodes.reverse();
+    }
+
     render() {
         let gameNodes = this.props.games.map((game) => {
             return (
                 <Game game={game} key={game._id}/>
             )
         });
+
+        this.showRecentGamesFirst(gameNodes);
 
         return (
             <div>
