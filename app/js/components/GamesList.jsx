@@ -21,10 +21,10 @@ export default class GamesList extends React.Component {
                 <table className="striped">
                     <thead>
                     <tr>
-                        <th>White</th>
-                        <th>Black</th>
+                        <th>Player</th>
+                        <th>Player</th>
                         <th>Result</th>
-                        <th>Date</th>
+                        <th>When</th>
                     </tr>
                     </thead>
                     <tbody>
